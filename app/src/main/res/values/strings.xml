@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GitHub Viewer</string>
+    <string name="username">name</string>
+    <string name="searchButton">Search</string>
+</resources>

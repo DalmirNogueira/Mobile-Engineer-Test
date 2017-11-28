@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="32dp"
+        android:background="@android:color/transparent"
+        android:cursorVisible="false"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="bottom"
+        android:hint="@string/username"
+        android:imeOptions="actionDone"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_weight="1"
+android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/doSearch"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/searchButton"/>
+
+</LinearLayout>
+
+</LinearLayout>
